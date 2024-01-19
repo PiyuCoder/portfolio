@@ -4,13 +4,13 @@ import { projectData } from "../dummyData/projectData";
 export default function ProjectMenu() {
   const [currentIndex, setCurrentIndex] = useState(0);
   return (
-    <div className=" h-screen flex flex-col justify-around py-20 px-6 md:flex-row md:items-center md:justify-center  sm:px-5 lg:px-44">
+    <div className=" h-screen flex flex-col justify-center py-30 gap-3 px-6 md:flex-row md:items-center md:justify-center  sm:px-5 lg:px-44">
       <div className=" px-8">
         {projectData.map((project, i) => (
           <h1
             onClick={() => setCurrentIndex(i)}
             key={i}
-            className={`p-2 px-4  md:w-60  rounded-e-3xl text-center text-sm transition-all cursor-pointer  md:hover:bg-gradient-to-r md:hover:from-transparent md:hover:to-slate-400 md:text-lg ${
+            className={`p-2 px-4  md:w-60  rounded-e-3xl text-center text-xs transition-all cursor-pointer  md:hover:bg-gradient-to-r md:hover:from-transparent md:hover:to-slate-400 md:text-lg ${
               currentIndex === i
                 ? "bg-gradient-to-r from-transparent to-purple-950 text-sm"
                 : ""
@@ -26,7 +26,7 @@ export default function ProjectMenu() {
           {projectData[currentIndex].name}{" "}
         </p>
         <img
-          className=" rounded-md rounded-tr-3xl h-32 md:h-64"
+          className=" rounded-md rounded-tr-3xl h-24 md:h-64"
           src={projectData[currentIndex].image}
           alt="project"
         />
