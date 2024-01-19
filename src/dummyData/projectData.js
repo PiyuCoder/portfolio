@@ -1,6 +1,6 @@
-import kidQuestImg from "../assets/project-1.png";
-import resumeCrafter from "../assets/project-2.png";
-import toDo from "../assets/project-3.png";
+import kidQuestImg from "../assets/kidquest.png";
+import resumeCrafter from "../assets/resumeCrafter.png";
+import toDo from "../assets/todo.png";
 
 export const projectData = [
   {
@@ -17,8 +17,8 @@ export const projectData = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     image: resumeCrafter,
-    github: "",
-    demo: "",
+    github: "https://github.com/PiyuCoder/resume-builder.git",
+    demo: "https://resume-crafter-6tub.onrender.com/",
   },
 
   {
@@ -26,7 +26,7 @@ export const projectData = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     image: toDo,
-    github: "",
-    demo: "",
+    github: "https://github.com/PiyuCoder/to-do.git",
+    demo: "https://todo-guhi.onrender.com/",
   },
 ];
