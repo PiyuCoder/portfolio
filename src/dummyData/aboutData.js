@@ -33,7 +33,7 @@ export const aboutData = [
     subHeadings: [
       {
         title: "Full Stack Developer",
-        year: "2023 - 2024",
+        year: "2023 - Present",
         description: "Working with MERN technologies",
       },
       {

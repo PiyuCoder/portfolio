@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../assets/resume.docx";
+import resume from "../assets/resume.pdf";
 import Avatar from "../components/Avatar";
 
 export default function Resume() {
