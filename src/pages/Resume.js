@@ -10,7 +10,7 @@ export default function Resume() {
       <a
         className=" border-2 p-3 px-6 rounded-3xl"
         href={resume}
-        download={"Piyush_Rai_Resume.docx"}
+        download={"Piyush_Rai_Resume.pdf"}
       >
         Download Resume
       </a>
