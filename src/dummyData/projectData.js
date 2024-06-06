@@ -1,8 +1,17 @@
 import kidQuestImg from "../assets/kidquest.png";
 import resumeCrafter from "../assets/resumeCrafter.png";
 import toDo from "../assets/todo.png";
+import projob from "../assets/projob.png";
 
 export const projectData = [
+  {
+    name: "ProJob",
+    description:
+      "A Job Portal for the employers and candidates. It has all the features of a job portal",
+    image: projob,
+    github: "#",
+    demo: "https://app.projob.co.in/",
+  },
   {
     name: "KidQuest",
     description:
